@@ -1,0 +1,56 @@
+@charset = "UTF-8";
+
+/* nota de rodape */
+footer#rodape h6 {
+	text-align: center;
+	font-size: 6pt;
+}
+
+header#cabecalho{
+	text-align: center;
+}
+/* Logo do Cabeçalho*/
+header#cabecalho img#logo_cabecalho {
+	top: 0px;
+	left: 20px;
+}
+
+/* Lista de Menus*/
+ul#lista_menus {
+	border: none;
+	margin: 0px;
+	padding: 0px 0px 30px 30px;
+	background: #81BEF7;
+	
+}
+
+/*exibir Lista horizontal*/
+ul#lista_menus li{
+	list-style: none;
+	display: inline;
+}
+
+/*Editando posicao dos nomes centralizando*/
+ul#lista_menus a{
+	text-decoration: none;
+	float: left;
+	padding: 5px 15px 5px 15px
+}
+
+ul#lista_menus a:link{
+	color: #000000;
+}
+
+ul#lista_menus a:visited{
+	color: #000000;
+}
+
+ul#lista_menus a:hover{
+	background: #0489B1;
+	color: #000000;
+}
+
+nav#navigator_lista_menu {
+	display: block;
+}
+
